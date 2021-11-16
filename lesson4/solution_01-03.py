@@ -1,12 +1,12 @@
 #Дан список my_list = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89], 
 #выведите все элементы, которые меньше 5.
 
-'''my_list = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+my_list = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 new_list=[]
 for i in range(0,len(my_list)):
     if my_list[i]<5:
         new_list.append(my_list[i])
-print(new_list)'''
+print(new_list)
 
 
 #Ввести с клавиатуры строку, проверить является ли строка 
@@ -14,7 +14,7 @@ print(new_list)'''
 # Палиндром - это слово или фраза, которые одинаково 
 # читаются слева направо и справа налево
 
-'''polindrom=True
+polindrom=True
 stroka=str(input())
 stroka=list(stroka)
 for i in range(0, len(stroka)):
@@ -23,7 +23,7 @@ for i in range(0, len(stroka)):
 if polindrom==True:
     print("Строка полиндром")
 else:
-    print("Строка не полиндром")'''
+    print("Строка не полиндром")
 
 #Написать функцию xor_cipher, принимающая 2 аргумента: 
 # строку, которую нужно зашифровать, и ключ шифрования, 
