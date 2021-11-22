@@ -37,7 +37,7 @@ def santa(persons):
 persons=('Kiril', 'Olga', 'Maria', 'Oleg', 'Mihail')
 itog=santa(persons)
 count=1
-while itog.setdefault(persons[-1])==persons[-1]:
+while itog.setdefault(persons[-1])==None:
     count+=1
     itog=santa(persons)
 print(itog)
